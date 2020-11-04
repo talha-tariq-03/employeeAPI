@@ -1,0 +1,17 @@
+[
+{"type":"header","version":"5.0.2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"employeeapi"},
+{"type":"table","name":"employees","database":"employeeapi","data":
+[
+{"id":"1","firstName":"Talha","lastName":"Tariq","email":"talha@gmail.com","position":"Manager","location":"London","created_at":"2020-11-01 18:30:00","updated_at":"2020-11-03 00:09:42"},
+{"id":"2","firstName":"Hamza","lastName":"Tariq","email":"hamza@gmail.com","position":"intern","location":"Lahore","created_at":"2020-11-01 21:53:12","updated_at":"2020-11-01 21:53:12"},
+{"id":"4","firstName":"John","lastName":"doe","email":"john@gmail.com","position":"HR","location":"New York","created_at":"2020-11-02 23:16:08","updated_at":"2020-11-02 23:16:08"},
+{"id":"5","firstName":"dan","lastName":"andrew","email":"dan@gmail.com","position":"Manager","location":"VIC","created_at":"2020-11-03 00:27:49","updated_at":"2020-11-03 00:27:49"}
+]
+}
+,{"type":"table","name":"migrations","database":"employeeapi","data":
+[
+{"migration":"2020_11_01_051243_create_employee_table","batch":"1"}
+]
+}
+]
